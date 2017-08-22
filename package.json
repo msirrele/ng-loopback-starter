@@ -1,0 +1,42 @@
+{
+  "name": "ng-loopback-starter",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "posttest": "npm run lint && nsp check",
+    "start:app": "concurrently \"npm run start:server\" \"npm run start:client\" ",
+    "start:server": "node .",
+    "start:client": "cd client/ && ng serve",
+    "build:client": "cd client && ng build",
+    "build:sdk": "./node_modules/.bin/lb-sdk server/server.js ./client/src/app/shared/sdk"
+  },
+  "dependencies": {
+    "compression": "^1.0.3",
+    "cors": "^2.5.2",
+    "helmet": "^1.3.0",
+    "loopback": "^3.0.0",
+    "loopback-boot": "^2.6.5",
+    "loopback-component-explorer": "^4.0.0",
+    "serve-favicon": "^2.0.1",
+    "strong-error-handler": "^2.0.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.3.1",
+    "@mean-expert/loopback-sdk-builder": "^2.1.0-rc.13.5",
+    "concurrently": "^3.5.0",
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0",
+    "nsp": "^2.1.0"
+  },
+  "repository": {
+    "type": "public",
+    "url": "https://github.com/msirrele/ng-loopback-starter.git"
+  },
+  "license": "MIT",
+  "description": "ng + Loopback starter",
+  "author": "Sirrele Steinfeld"
+}
