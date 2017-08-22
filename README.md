@@ -1,3 +1,6 @@
+# ng-loopback-starter
+Starting code base to build MEAN web applications using ng and Loopback
+
 ##### NOTE: 
 * By default, Loopback has route authorization enabled, which we may not want to handle when initially starting development. However, this should be re-enabled if your web application is going to be used in production!
 
@@ -26,6 +29,3 @@
 * **start:client** | servers ng client
 * **build:app** | builds ng client
 * **build:sdk** | builds auto-generating sdk for LoopBack
-
-# ng-loopback-starter
-Starting code base to build MEAN web applications using ng and Loopback
