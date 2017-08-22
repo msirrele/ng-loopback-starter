@@ -27,3 +27,5 @@
 * **build:app** | builds ng client
 * **build:sdk** | builds auto-generating sdk for LoopBack
 
+# ng-loopback-starter
+Starting code base to build MEAN web applications using ng and Loopback
