@@ -20,7 +20,7 @@ Starting code base to build MEAN web applications using ng and Loopback
  
       npm run build:sdk
 
-* Styling is provided by the Bootstrap CDN, to support offline styling you will need to add Bootstrap’s source files to your project
+* Styling is provided by the Angular Material, for more information please read their documentation via<a href="https://material.angular.io/">https://material.angular.io/</a>
 
 * Run npm install in root of the project as well as in the client directory
 
