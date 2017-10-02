@@ -18,5 +18,6 @@
       "limit": "100kb"
     },
     "cors": false
-  }
+  },
+  "errorLoggerFilePath":"./logs/error-logger.log"
 }

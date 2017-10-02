@@ -1,9 +1,13 @@
 'use strict';
 
-var loopback = require('loopback');
-var boot = require('loopback-boot');
+const loopback = require('loopback');
+const boot = require('loopback-boot');
+const errorHandler = require('strong-error-handler');
+const myErrorLogger = require('./middleware/error-logger');
 
-var app = module.exports = loopback();
+const app = module.exports = loopback();
+app.use(myErrorLogger());
+app.use(errorHandler({log: false}));
 
 app.start = function() {
   // start the web server
