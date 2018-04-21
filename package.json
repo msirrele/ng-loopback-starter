@@ -27,8 +27,8 @@
     "strong-error-handler": "^2.2.0"
   },
   "devDependencies": {
-    "@angular/cli": "^1.3.1",
-    "@mean-expert/loopback-sdk-builder": "^2.1.0-rc.13.5",
+    "@angular/cli": "^1.7.4",
+    "@mean-expert/loopback-sdk-builder": "^2.2.6",
     "concurrently": "^3.5.0",
     "eslint": "^3.17.1",
     "eslint-config-loopback": "^8.0.0",
@@ -36,9 +36,10 @@
   },
   "repository": {
     "type": "public",
-    "url": "https://github.com/msirrele/ng-loopback-starter.git"
+    "url": "https://github.com/msirrele/ng-loopback-starter.git",
+    "email": "mssteinfeld@gmail.com"
   },
   "license": "MIT",
-  "description": "ng + Loopback starter",
+  "description": "Angular 5 + Loopback starter",
   "author": "Sirrele Steinfeld"
 }
