@@ -1,4 +1,5 @@
-# ng-loopback-starter
+# Angular 5 + Loopback 3
+###ng-loopback-starter
 Starting code base to build MEAN web applications using Angular 5 and Loopback 3
 
 ##### NOTE: 
